@@ -1,0 +1,25 @@
+{
+  "name": "escasuma",
+  "version": "1.0.0",
+  "description": "app for myntra weforshe",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js, jsx}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwvicy/escasuma.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwvicy/escasuma/issues"
+  },
+  "homepage": "https://github.com/dwvicy/escasuma#readme",
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^8.1.0",
+    "prettier": "^2.2.1"
+  }
+}
