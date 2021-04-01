@@ -1,8 +1,11 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
+
 const Item = (props) => {
   return React.createElement("div", {}, [
     React.createElement("h2", {}, props.name),
     React.createElement("h3", {}, props.price),
-    React.createElement("h3", {}, prop.brand),
+    React.createElement("h3", {}, props.brand),
   ]);
 };
 
@@ -15,7 +18,7 @@ const App = () => {
       brand: "Vero Moda",
     }),
     React.createElement(Item, {
-      name: "Peplum Skirt",
+      name: "Peplum Skirts",
       price: "Rs. 778",
       brand: "Only",
     }),
